@@ -18,12 +18,6 @@ Search for any city to view **current conditions, 5-day forecast, air quality in
 <img width="1919" height="907" alt="image" src="https://github.com/user-attachments/assets/b32c9e1e-171e-41b3-8911-e2c71f08483f" />
 <img width="1915" height="895" alt="image" src="https://github.com/user-attachments/assets/95cd79cf-18f8-4fba-82a6-f216ea42e6ca" />
 
-## Mobile view
-<img width="449" height="800" alt="image" src="https://github.com/user-attachments/assets/3db8505e-fb53-467b-b9e7-998f4c17e062" />
-<img width="449" height="799" alt="image" src="https://github.com/user-attachments/assets/1fa33f56-e79d-45f6-9bef-da13f9839182" />
-<img width="447" height="799" alt="image" src="https://github.com/user-attachments/assets/6c62883b-c8d4-41d9-9e24-936bc9a2fedd" />
-
-
 ## project link
 https://mycityweathernow.netlify.app/
 
