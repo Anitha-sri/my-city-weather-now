@@ -1,0 +1,229 @@
+
+body{
+    background:url('./2151762533.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Comfortaa' ,'sans-serif';
+    color:white;
+    
+}
+body {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.search-bar{
+    height:10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.searchBarParentDiv{
+    width:50%;
+    height: fit-content;
+    position: relative;
+    display: flex;
+    
+}
+.inputfield
+{
+    width:100%;
+    border-radius: 25px;
+    padding:10px;
+    
+}
+.inputfield{
+    outline: none;
+    overflow: none;
+}
+
+.search-icon{ 
+    border-radius: 50%; 
+    position: absolute;
+    right:10px;
+    top:5px;
+}
+.search-icon:hover{
+    cursor: pointer;
+}
+.main-content{
+    height: 90vh;
+    flex-direction: row;
+}
+.leftdiv{
+    width:30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.leftchild{
+    background: rgba(212,212,212,0.4);
+    width:85%;
+    height: 40vh;
+    margin: auto;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+}
+.currentTemp h6{
+ font-size: larger;
+}
+#cityname{
+    font-size: xx-large;
+}
+#citytemp
+{
+    font-size: xx-large;
+}
+.rightdiv{
+    width:70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+#Commingfivedays{
+font-size: x-large;
+}
+.rightrow{
+    height: 27vh;
+    width: 100%;
+}
+.extrametric{
+    background: rgba(212,212,212,0.4);
+    padding: 5% 4%;
+    width: fit-content;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+}
+.rowtwodiv{
+    background: rgba(212,212,212,0.4);
+    backdrop-filter: blur(15px);
+    width: 45%;
+    height: 85%;
+    border-radius: 15px;
+}
+.todaytemp
+{
+     background: rgba(212,212,212,0.4);
+     width: fit-content;
+     padding: 22px;
+     border-radius: 15px;
+     backdrop-filter: blur(15px);
+     display: flex;
+     flex-direction: column;
+     gap:10px;
+     text-align: center;
+     justify-content: center;
+}
+.forecast:hover,
+.todaytemp:hover {
+    transform: scale(1.03);
+    transition: transform 0.3s ease;
+    background: rgba(255, 255, 255, 0.2);
+}
+.inputfield {
+    transition: all 0.3s ease-in-out;
+}
+.inputfield:focus {
+    box-shadow: 0 0 5px white;
+    border: 1px solid white;
+}
+.search-icon:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+
+    body {
+        background: url('./vertical-shot-pathway-middle-grassy-field-with-trees-cloudy-sky.jpg') no-repeat center center fixed;
+        background-size: cover;
+        font-family: 'Comfortaa', 'sans-serif';
+        color: white;
+    }
+
+    .leftdiv {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nextFiveDays {
+        margin-bottom: 15px;
+        height: auto;
+        gap: 10px;
+    }
+
+    .rightdiv {
+        width: 100%;
+    }
+
+    .main-content {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .search-bar {
+        width: 100%;
+    }
+
+    .searchBarParentDiv {
+        width: 85%;
+        height: fit-content;
+        position: relative;
+    }
+
+    .rowone {
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+    height: auto;
+}
+.extrametric {
+    width: 45%; 
+    min-width: 130px;
+}
+
+
+    .rowtwo {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        height: auto;
+        width: fit-content;
+    }
+
+    .AQI {
+        justify-content: space-between;
+        gap: 3px;
+    }
+
+    .rowtwodiv {
+        background: rgba(212, 212, 212, 0.4);
+        backdrop-filter: blur(10px);
+        width: 90%;
+        height: 85%;
+        border-radius: 15px;
+    }
+
+    .todaytempparentdiv {
+        width: 85%;
+        flex-wrap: wrap;
+        margin: auto;
+        gap: 15px;
+        padding-bottom: 10px;
+    }
+}
